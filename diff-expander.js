@@ -1,5 +1,5 @@
 function expander() {
-  return document.querySelector('.js-expand');
+  return document.querySelector('.js-expand[data-url*=".coffee"]');
 }
 
 function onRemoval() {
